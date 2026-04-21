@@ -1,13 +1,12 @@
 {
   "name": "hackprep",
   "version": "1.0.0",
-  "description": "HackPrep — Full-stack developer education platform",
+  "description": "HackPrep — Developer education platform",
   "scripts": {
-    "client": "cd client && npm run dev",
-    "server": "cd server && npm run dev",
-    "install:all": "cd client && npm install && cd ../server && npm install",
-    "build": "cd client && npm run build"
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "preview": "cd client && npm run preview"
   },
-  "keywords": ["hackprep", "education", "web-development", "full-stack"],
+  "keywords": ["hackprep", "education", "web-development"],
   "author": "Rohan Sharma & Aidan Fan"
 }
